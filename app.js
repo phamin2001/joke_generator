@@ -1,7 +1,9 @@
 document.querySelector('.get-jokes').addEventListener('click', getJokes);
 
 function getJokes(e) {
-  console.log('get kokes');
+  const number = document.querySelector('input[type="number"]').value;
+  
+  
 
   e.preventDefault();
 }
